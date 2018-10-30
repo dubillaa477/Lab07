@@ -1,5 +1,6 @@
 ﻿using System;
 using BusinessLogic;
+using Entities;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Lab07.Test
@@ -12,7 +13,7 @@ namespace Lab07.Test
         {
             //Arrange
             PersonBL logic = new PersonBL();
-
+            Person person = new Person();
             //Act
 
             //Assert
